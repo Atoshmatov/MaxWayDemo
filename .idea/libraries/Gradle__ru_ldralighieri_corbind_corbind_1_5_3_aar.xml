@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: ru.ldralighieri.corbind:corbind:1.5.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/21ea40578d54b29d7290c5661bfff53a/transformed/jetified-corbind-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/423f3f66dc657e8beb11b617188f0b9b/transformed/jetified-corbind-1.5.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cff557a0451f051b763ff7522b14b809/transformed/jetified-corbind-1.5.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/423f3f66dc657e8beb11b617188f0b9b/transformed/jetified-corbind-1.5.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/423f3f66dc657e8beb11b617188f0b9b/transformed/jetified-corbind-1.5.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.ldralighieri.corbind/corbind/1.5.3/a6fb913eb8de3b3c5f70029fca7e76eb0044d687/corbind-1.5.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.ldralighieri.corbind/corbind/1.5.3/83d20f452d2d2f982a4a273a4143550f3cdba93b/corbind-1.5.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

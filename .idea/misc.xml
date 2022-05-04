@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable-v24/btn_style2.xml" value="0.1705" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/btn_style.xml" value="0.252" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/btn_style2.xml" value="0.1705" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/category_style.xml" value="0.248" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/circle_tab_indicator.xml" value="0.248" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/coll_style.xml" value="0.252" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/dot.xml" value="0.248" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/ic_add.xml" value="0.252" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/ic_busket.xml" value="0.154" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/ic_by1.xml" value="0.1" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/ic_close.xml" value="0.2385" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/ic_home1.xml" value="0.1895" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/ic_login.xml" value="0.1" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/ic_login1.xml" value="0.1" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/ic_noadd.xml" value="0.252" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/ic_search.xml" value="0.253" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/search_style.xml" value="0.253" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/drawable/slide_item_style.xml" value="0.253" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/layout/activity_main.xml" value="0.24739583333333334" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/layout/category_item.xml" value="0.2421875" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/layout/category_item_list.xml" value="0.2421875" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/layout/coll_item.xml" value="0.264" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/layout/screen_bucket.xml" value="0.24739583333333334" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/layout/screen_home.xml" value="0.2421875" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/layout/screen_login.xml" value="0.24739583333333334" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/layout/screen_main.xml" value="0.24739583333333334" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/layout/screen_splash.xml" value="0.24739583333333334" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/layout/slide_item.xml" value="0.264" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/menu/menu_item.xml" value="0.24739583333333334" />
+        <entry key="..\:/Play_Market/newPlayMerket/maxwayDemo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2265" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

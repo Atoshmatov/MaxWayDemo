@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\screen_splash.xml",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\screen_splash.xml"
+    },
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\slide_item.xml",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\slide_item.xml"
+    },
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\screen_main.xml",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\screen_main.xml"
+    },
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\screen_login.xml",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\screen_login.xml"
+    },
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\screen_bucket.xml",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\screen_bucket.xml"
+    },
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\category_item_list.xml",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\category_item_list.xml"
+    },
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\coll_item.xml",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\coll_item.xml"
+    },
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\category_item.xml",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\category_item.xml"
+    },
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\screen_home.xml",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\screen_home.xml"
+    }
+]
