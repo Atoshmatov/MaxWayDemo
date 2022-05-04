@@ -13,7 +13,7 @@
             android:thickness="4dp"
             android:innerRadius="0dp"
             android:useLevel="false">
-            <solid android:color="@color/teal_200"/>
+            <solid android:color="@color/splash_color"/>
         </shape>
     </item>
 </selector>

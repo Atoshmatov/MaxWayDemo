@@ -8,7 +8,7 @@
     tools:context=".presentation.views.screen.main.MainScreen">
 
     <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/main_pager"
+        android:id="@+id/mainPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="?actionBarSize" />

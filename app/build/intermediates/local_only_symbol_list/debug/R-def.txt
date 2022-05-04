@@ -25,6 +25,9 @@ drawable ic_login
 drawable ic_login1
 drawable ic_noadd
 drawable ic_search
+drawable item_home
+drawable item_orders
+drawable item_profile
 drawable place_holder
 drawable search_style
 drawable slide_item_style
@@ -32,9 +35,10 @@ drawable splash_logo
 font b612
 id action_splashScreen_to_mainScreen
 id addFood
+id adsSlide
 id ads_tab
 id app_nav
-id bucket
+id basket
 id categoryName
 id coll_list
 id countAdd
@@ -46,10 +50,11 @@ id foodSum
 id home
 id imageCategory
 id linear
+id listColl
 id listItem
 id login
+id mainPager
 id mainScreen
-id main_pager
 id minus
 id navHost
 id navigationButton

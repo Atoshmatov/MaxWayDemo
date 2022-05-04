@@ -60,7 +60,7 @@ public final class ScreenMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.main_pager;
+      id = R.id.mainPager;
       ViewPager2 mainPager = ViewBindings.findChildViewById(rootView, id);
       if (mainPager == null) {
         break missingId;

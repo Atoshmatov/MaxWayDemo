@@ -12,6 +12,8 @@ import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import androidx.viewpager2.widget.ViewPager2;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.tabs.TabLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -23,6 +25,9 @@ public final class ScreenHomeBinding implements ViewBinding {
   private final LinearLayoutCompat rootView;
 
   @NonNull
+  public final ViewPager2 adsSlide;
+
+  @NonNull
   public final TabLayout adsTab;
 
   @NonNull
@@ -32,18 +37,24 @@ public final class ScreenHomeBinding implements ViewBinding {
   public final LinearLayout linear;
 
   @NonNull
+  public final CollapsingToolbarLayout listColl;
+
+  @NonNull
   public final RecyclerView listItem;
 
   @NonNull
   public final SearchView searchView;
 
-  private ScreenHomeBinding(@NonNull LinearLayoutCompat rootView, @NonNull TabLayout adsTab,
-      @NonNull RecyclerView collList, @NonNull LinearLayout linear, @NonNull RecyclerView listItem,
+  private ScreenHomeBinding(@NonNull LinearLayoutCompat rootView, @NonNull ViewPager2 adsSlide,
+      @NonNull TabLayout adsTab, @NonNull RecyclerView collList, @NonNull LinearLayout linear,
+      @NonNull CollapsingToolbarLayout listColl, @NonNull RecyclerView listItem,
       @NonNull SearchView searchView) {
     this.rootView = rootView;
+    this.adsSlide = adsSlide;
     this.adsTab = adsTab;
     this.collList = collList;
     this.linear = linear;
+    this.listColl = listColl;
     this.listItem = listItem;
     this.searchView = searchView;
   }
@@ -75,6 +86,12 @@ public final class ScreenHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.adsSlide;
+      ViewPager2 adsSlide = ViewBindings.findChildViewById(rootView, id);
+      if (adsSlide == null) {
+        break missingId;
+      }
+
       id = R.id.ads_tab;
       TabLayout adsTab = ViewBindings.findChildViewById(rootView, id);
       if (adsTab == null) {
@@ -93,6 +110,12 @@ public final class ScreenHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.listColl;
+      CollapsingToolbarLayout listColl = ViewBindings.findChildViewById(rootView, id);
+      if (listColl == null) {
+        break missingId;
+      }
+
       id = R.id.listItem;
       RecyclerView listItem = ViewBindings.findChildViewById(rootView, id);
       if (listItem == null) {
@@ -105,8 +128,8 @@ public final class ScreenHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ScreenHomeBinding((LinearLayoutCompat) rootView, adsTab, collList, linear,
-          listItem, searchView);
+      return new ScreenHomeBinding((LinearLayoutCompat) rootView, adsSlide, adsTab, collList,
+          linear, listColl, listItem, searchView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

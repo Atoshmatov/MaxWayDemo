@@ -7,11 +7,11 @@ import uz.gita.maxwaydemo.mobdev.data.model.mainmodel.home.FoodsModel
 
 interface HomeRepository {
     // ads model
-    suspend fun getAds(): Flow<Result<List<AdsModel>>>
+    fun getAds(): Flow<Result<List<AdsModel>>>
 
     // category model
-    suspend fun getCategory(): Flow<Result<List<CategoryModel>>>
+    fun getCategory(): Flow<Result<List<CategoryModel>>>
 
     //foods model
-    suspend fun getFoods(): Flow<Result<List<List<FoodsModel>>>>
+    fun getFoods(): Flow<Result<List<List<FoodsModel>>>>
 }

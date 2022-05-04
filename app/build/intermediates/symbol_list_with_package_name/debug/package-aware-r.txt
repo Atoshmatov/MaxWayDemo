@@ -2568,6 +2568,9 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_noadd
 drawable ic_search
+drawable item_home
+drawable item_orders
+drawable item_profile
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2693,6 +2696,7 @@ id add
 id addFood
 id adjust_height
 id adjust_width
+id adsSlide
 id ads_tab
 id alertTitle
 id aligned
@@ -2714,6 +2718,7 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
 id baseline
+id basket
 id beginOnFirstDraw
 id beginning
 id bestChoice
@@ -2728,7 +2733,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id bucket
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2879,14 +2883,15 @@ id light
 id line1
 id line3
 id linear
+id listColl
 id listItem
 id listMode
 id list_item
 id locale
 id login
 id ltr
+id mainPager
 id mainScreen
-id main_pager
 id masked
 id match_constraint
 id match_parent

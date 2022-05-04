@@ -1,11 +1,8 @@
 package uz.gita.maxwaydemo.mobdev.domain.mainrepository.home.impl
 
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.ktx.Firebase
-import com.google.firebase.storage.FirebaseStorage
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.awaitClose
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.flowOn
 import uz.gita.maxwaydemo.mobdev.data.model.mainmodel.home.AdsModel
@@ -23,7 +20,7 @@ class HomeRepositoryImpl
     private val category = store.collection("category")
     private val foods = store.collection("foods")
 
-    override suspend fun getAds() = callbackFlow<Result<List<AdsModel>>> {
+    override fun getAds() = callbackFlow<Result<List<AdsModel>>> {
         ads.get()
             .addOnSuccessListener {
                 val data = it.map { item ->
@@ -34,12 +31,10 @@ class HomeRepositoryImpl
             .addOnFailureListener {
                 trySend(Result.failure(it))
             }
-        awaitClose {
-
-        }
+        awaitClose {}
     }.flowOn(Dispatchers.IO)
 
-    override suspend fun getCategory() = callbackFlow<Result<List<CategoryModel>>> {
+    override fun getCategory() = callbackFlow<Result<List<CategoryModel>>> {
         category.get()
             .addOnSuccessListener {
                 val data = it.map { category ->
@@ -50,12 +45,10 @@ class HomeRepositoryImpl
             .addOnFailureListener {
                 trySend(Result.failure(it))
             }
-        awaitClose {
-
-        }
+        awaitClose {}
     }.flowOn(Dispatchers.IO)
 
-    override suspend fun getFoods() = callbackFlow<Result<List<List<FoodsModel>>>> {
+    override fun getFoods() = callbackFlow<Result<List<List<FoodsModel>>>> {
         foods.get()
             .addOnSuccessListener {
                 val data = it.map { food ->
@@ -80,8 +73,6 @@ class HomeRepositoryImpl
             .addOnFailureListener {
                 trySend(Result.failure(it))
             }
-        awaitClose {
-
-        }
+        awaitClose {}
     }.flowOn(Dispatchers.IO)
 }

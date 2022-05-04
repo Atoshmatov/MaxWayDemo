@@ -4,7 +4,7 @@
             "outputFile": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-3\\dc5981e425a4870b831fe264e4248c6a\\transformed\\material-1.5.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-3\\756ca21c1bdf074d5628fea20a83ccce\\transformed\\material-1.5.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-3\\dbd5c63574d550b489f149da033e6ff3\\transformed\\appcompat-1.4.1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-3\\c35d34a36283a31f8ceaf301eb331878\\transformed\\appcompat-1.4.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

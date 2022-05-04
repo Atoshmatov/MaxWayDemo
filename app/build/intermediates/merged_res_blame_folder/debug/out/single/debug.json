@@ -168,6 +168,10 @@
         "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_by1.png"
     },
     {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\drawable_item_orders.xml.flat",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\drawable\\item_orders.xml"
+    },
+    {
         "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_by1.png.flat",
         "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_by1.png"
     },
@@ -208,6 +212,10 @@
         "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home1.png"
     },
     {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\drawable_item_profile.xml.flat",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\drawable\\item_profile.xml"
+    },
+    {
         "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_logo.png.flat",
         "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\drawable\\splash_logo.png"
     },
@@ -222,6 +230,10 @@
     {
         "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_busket.png.flat",
         "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_busket.png"
+    },
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\drawable_item_home.xml.flat",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\drawable\\item_home.xml"
     },
     {
         "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
