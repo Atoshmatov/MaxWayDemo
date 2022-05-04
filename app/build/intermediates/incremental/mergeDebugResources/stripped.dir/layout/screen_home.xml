@@ -89,10 +89,10 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="54dp"
                     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                    app:spanCount="1"
+                    app:spanCount="2"
                     tools:ignore="SpeakableTextPresentCheck"
                     tools:itemCount="20"
-                    tools:listitem="@layout/category_item_list" />
+                    tools:listitem="@layout/category_item" />
 
 
             </androidx.coordinatorlayout.widget.CoordinatorLayout>

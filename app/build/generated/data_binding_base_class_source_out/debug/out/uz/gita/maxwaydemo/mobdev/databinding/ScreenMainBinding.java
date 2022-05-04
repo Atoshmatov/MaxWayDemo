@@ -66,7 +66,7 @@ public final class ScreenMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.navigation_button;
+      id = R.id.navigationButton;
       BottomNavigationView navigationButton = ViewBindings.findChildViewById(rootView, id);
       if (navigationButton == null) {
         break missingId;

@@ -2947,13 +2947,13 @@ id multiply
 id navHost
 id nav_controller_view_tag
 id nav_host_fragment_container
+id navigationButton
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
-id navigation_button
 id navigation_header_container
 id never
 id neverCompleteToEnd

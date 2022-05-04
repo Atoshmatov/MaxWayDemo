@@ -52,7 +52,7 @@ id mainScreen
 id main_pager
 id minus
 id navHost
-id navigation_button
+id navigationButton
 id plus
 id searchView
 id slideAds

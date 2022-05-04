@@ -14,7 +14,7 @@
         android:layout_marginBottom="?actionBarSize" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navigation_button"
+        android:id="@+id/navigationButton"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:layout_gravity="bottom"
