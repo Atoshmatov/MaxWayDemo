@@ -29,7 +29,6 @@ class HomeScreenViewModelImpl
     override val changeLiveData = MutableLiveData<Int>()
     override val errorLiveData = MutableLiveData<String>()
 
-    private var categories = ArrayList<CategoryModel>()
 
     init {
         loadAds()
