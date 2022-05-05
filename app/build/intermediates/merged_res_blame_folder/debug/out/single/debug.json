@@ -176,10 +176,6 @@
         "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_by1.png"
     },
     {
-        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\layout_category_item.xml.flat",
-        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\category_item.xml"
-    },
-    {
         "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\drawable_search_style.xml.flat",
         "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\drawable\\search_style.xml"
     },
@@ -230,6 +226,10 @@
     {
         "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_busket.png.flat",
         "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_busket.png"
+    },
+    {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\layout_foods_item.xml.flat",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\foods_item.xml"
     },
     {
         "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\merged_res\\debug\\drawable_item_home.xml.flat",

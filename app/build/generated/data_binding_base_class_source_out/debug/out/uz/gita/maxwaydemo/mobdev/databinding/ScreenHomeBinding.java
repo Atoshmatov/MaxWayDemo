@@ -40,14 +40,14 @@ public final class ScreenHomeBinding implements ViewBinding {
   public final CollapsingToolbarLayout listColl;
 
   @NonNull
-  public final RecyclerView listItem;
+  public final RecyclerView listFoods;
 
   @NonNull
   public final SearchView searchView;
 
   private ScreenHomeBinding(@NonNull LinearLayoutCompat rootView, @NonNull ViewPager2 adsSlide,
       @NonNull TabLayout adsTab, @NonNull RecyclerView collList, @NonNull LinearLayout linear,
-      @NonNull CollapsingToolbarLayout listColl, @NonNull RecyclerView listItem,
+      @NonNull CollapsingToolbarLayout listColl, @NonNull RecyclerView listFoods,
       @NonNull SearchView searchView) {
     this.rootView = rootView;
     this.adsSlide = adsSlide;
@@ -55,7 +55,7 @@ public final class ScreenHomeBinding implements ViewBinding {
     this.collList = collList;
     this.linear = linear;
     this.listColl = listColl;
-    this.listItem = listItem;
+    this.listFoods = listFoods;
     this.searchView = searchView;
   }
 
@@ -116,9 +116,9 @@ public final class ScreenHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.listItem;
-      RecyclerView listItem = ViewBindings.findChildViewById(rootView, id);
-      if (listItem == null) {
+      id = R.id.listFoods;
+      RecyclerView listFoods = ViewBindings.findChildViewById(rootView, id);
+      if (listFoods == null) {
         break missingId;
       }
 
@@ -129,7 +129,7 @@ public final class ScreenHomeBinding implements ViewBinding {
       }
 
       return new ScreenHomeBinding((LinearLayoutCompat) rootView, adsSlide, adsTab, collList,
-          linear, listColl, listItem, searchView);
+          linear, listColl, listFoods, searchView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

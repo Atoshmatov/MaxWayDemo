@@ -13,5 +13,5 @@ interface HomeRepository {
     fun getCategory(): Flow<Result<List<CategoryModel>>>
 
     //foods model
-    fun getFoods(): Flow<Result<List<List<FoodsModel>>>>
+    fun getFoods(): Flow<Result<List<FoodsModel>>>
 }

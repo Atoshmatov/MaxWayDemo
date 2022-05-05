@@ -12,6 +12,7 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import uz.gita.maxwaydemo.mobdev.data.model.mainmodel.home.AdsModel
 import uz.gita.maxwaydemo.mobdev.data.model.mainmodel.home.CategoryModel
+import uz.gita.maxwaydemo.mobdev.data.model.mainmodel.home.FoodsModel
 import uz.gita.maxwaydemo.mobdev.domain.mainrepository.home.HomeRepository
 import uz.gita.maxwaydemo.mobdev.presentation.viewModel.main.home.HomeScreenViewModel
 import javax.inject.Inject
@@ -24,6 +25,7 @@ class HomeScreenViewModelImpl
     HomeScreenViewModel {
     override val adsLiveData = MutableLiveData<List<AdsModel>>()
     override val categoryLiveData = MutableLiveData<List<CategoryModel>>()
+    override val foodLiveData = MutableLiveData<List<FoodsModel>>()
     override val changeLiveData = MutableLiveData<Int>()
     override val errorLiveData = MutableLiveData<String>()
 
@@ -32,6 +34,7 @@ class HomeScreenViewModelImpl
     init {
         loadAds()
         loadCategories()
+        loadFoods()
     }
 
 
@@ -76,6 +79,16 @@ class HomeScreenViewModelImpl
                 categoryLiveData.value = categories
             }
             it.onFailure { error ->
+                errorLiveData.value = error.message
+            }
+        }.launchIn(viewModelScope)
+    }
+
+    private fun loadFoods() {
+        repository.getFoods().onEach {
+            it.onSuccess { foods ->
+                foodLiveData.value = foods
+            }.onFailure { error ->
                 errorLiveData.value = error.message
             }
         }.launchIn(viewModelScope)

@@ -47,11 +47,12 @@ id foodCount
 id foodImage
 id foodName
 id foodSum
+id foodsCost
 id home
-id imageCategory
+id imageFood
 id linear
 id listColl
-id listItem
+id listFoods
 id login
 id mainPager
 id mainScreen
@@ -63,9 +64,9 @@ id searchView
 id slideAds
 id splashScreen
 layout activity_main
-layout category_item
 layout category_item_list
 layout coll_item
+layout foods_item
 layout screen_bucket
 layout screen_home
 layout screen_login

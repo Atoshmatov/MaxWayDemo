@@ -2833,6 +2833,7 @@ int id foodCount 0x7f0900d1
 int id foodImage 0x7f0900d2
 int id foodName 0x7f0900d3
 int id foodSum 0x7f0900d4
+int id foodsCost 0x7f09020b
 int id forever 0x7f0900d5
 int id fragment_container_view_tag 0x7f0900d6
 int id frost 0x7f0900d7
@@ -2859,7 +2860,7 @@ int id ifRoom 0x7f0900eb
 int id ignore 0x7f0900ec
 int id ignoreRequest 0x7f0900ed
 int id image 0x7f0900ee
-int id imageCategory 0x7f0900ef
+int id imageFood 0x7f09020c
 int id immediateStop 0x7f0900f0
 int id included 0x7f0900f1
 int id info 0x7f0900f2
@@ -2883,7 +2884,7 @@ int id line1 0x7f090103
 int id line3 0x7f090104
 int id linear 0x7f090105
 int id listColl 0x7f09020a
-int id listItem 0x7f090106
+int id listFoods 0x7f09020d
 int id listMode 0x7f090107
 int id list_item 0x7f090108
 int id locale 0x7f090109
@@ -3233,7 +3234,6 @@ int layout abc_tooltip 0x7f0c001b
 int layout activity_main 0x7f0c001c
 int layout browser_actions_context_menu_page 0x7f0c001d
 int layout browser_actions_context_menu_row 0x7f0c001e
-int layout category_item 0x7f0c001f
 int layout category_item_list 0x7f0c0020
 int layout coll_item 0x7f0c0021
 int layout custom_dialog 0x7f0c0022
@@ -3252,6 +3252,7 @@ int layout design_navigation_menu 0x7f0c002e
 int layout design_navigation_menu_item 0x7f0c002f
 int layout design_text_input_end_icon 0x7f0c0030
 int layout design_text_input_start_icon 0x7f0c0031
+int layout foods_item 0x7f0c007f
 int layout m3_alert_dialog 0x7f0c0032
 int layout m3_alert_dialog_actions 0x7f0c0033
 int layout m3_alert_dialog_title 0x7f0c0034

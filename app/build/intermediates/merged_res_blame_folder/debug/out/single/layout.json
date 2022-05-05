@@ -4,6 +4,10 @@
         "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\screen_splash.xml"
     },
     {
+        "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\foods_item.xml",
+        "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\foods_item.xml"
+    },
+    {
         "merged": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\slide_item.xml",
         "source": "D:\\Play_Market\\newPlayMerket\\maxwayDemo\\app\\src\\main\\res\\layout\\slide_item.xml"
     },

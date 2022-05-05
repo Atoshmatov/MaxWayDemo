@@ -48,27 +48,13 @@ class HomeRepositoryImpl
         awaitClose {}
     }.flowOn(Dispatchers.IO)
 
-    override fun getFoods() = callbackFlow<Result<List<List<FoodsModel>>>> {
+    override fun getFoods() = callbackFlow<Result<List<FoodsModel>>> {
         foods.get()
             .addOnSuccessListener {
                 val data = it.map { food ->
                     food.toObject(FoodsModel::class.java)
                 }
-                val foods = ArrayList<ArrayList<FoodsModel>>()
-
-                for (i in 1L..13) {
-                    val temp = ArrayList<FoodsModel>()
-                    for (j in data) {
-                        with(j) {
-                            if (name != null && categoryID == i) {
-                                temp.add(j)
-                            }
-                        }
-                    }
-                    if (temp.isNotEmpty())
-                        foods.add(temp)
-                }
-                trySend(Result.success(foods))
+                trySend(Result.success(data))
             }
             .addOnFailureListener {
                 trySend(Result.failure(it))

@@ -375,7 +375,7 @@ public final class DaggerApp_HiltComponents_SingletonC extends App_HiltComponent
     }
 
     @Override
-    public void injectHomeScreen(HomeScreen homeScreen) {
+    public void injectHomeScreen(HomeScreen arg0) {
     }
 
     @Override

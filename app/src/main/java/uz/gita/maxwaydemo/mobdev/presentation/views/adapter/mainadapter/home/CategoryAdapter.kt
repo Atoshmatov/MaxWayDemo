@@ -1,9 +1,7 @@
 package uz.gita.maxwaydemo.mobdev.presentation.views.adapter.mainadapter.home
 
-import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.core.graphics.drawable.DrawableCompat
 import androidx.recyclerview.widget.RecyclerView
 import uz.gita.maxwaydemo.mobdev.data.model.mainmodel.home.CategoryModel
 import uz.gita.maxwaydemo.mobdev.databinding.CollItemBinding
@@ -23,43 +21,24 @@ class CategoryAdapter : RecyclerView.Adapter<CategoryAdapter.ViewHolder>() {
         notifyDataSetChanged()
     }
 
-    inner class ViewHolder(private val binding: CollItemBinding) : RecyclerView.ViewHolder(binding.root) {
+    inner class ViewHolder(private val binding: CollItemBinding) :
+        RecyclerView.ViewHolder(binding.root) {
 
-        init {
-            /*itemView.setOnClickListener {
-                categories[absoluteAdapterPosition].apply {
-                    isSelected = !isSelected!!
-                    listener!!.invoke(
-                        id!! - 1,
-                        isSelected!!
-                    )
-                }
-                binding.apply {
-                    if (categories[absoluteAdapterPosition].isSelected!!) {
-                        categoryName.setTextColor(Color.WHITE)
-                        DrawableCompat.wrap(categoryName.background).setTint(Color.rgb(81, 38, 125))
-                    } else {
-                        categoryName.setTextColor(Color.BLACK)
-                        DrawableCompat.wrap(categoryName.background).setTint(Color.WHITE)
-                    }
-                }
-            }*/
-        }
+        init {}
 
         fun bind() = with(binding) {
-           /* if (categories[absoluteAdapterPosition].isSelected!!) {
-                categoryName.setTextColor(Color.WHITE)
-                DrawableCompat.wrap(categoryName.background).setTint(Color.rgb(81, 38, 125))
-            } else {
-                categoryName.setTextColor(Color.BLACK)
-                DrawableCompat.wrap(categoryName.background).setTint(Color.WHITE)
-            }*/
             categoryName.text = categories[absoluteAdapterPosition].name
         }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryAdapter.ViewHolder {
-        return ViewHolder(CollItemBinding.inflate(LayoutInflater.from(parent.context), parent, false))
+        return ViewHolder(
+            CollItemBinding.inflate(
+                LayoutInflater.from(parent.context),
+                parent,
+                false
+            )
+        )
     }
 
     override fun onBindViewHolder(holder: CategoryAdapter.ViewHolder, position: Int) {

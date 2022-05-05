@@ -2834,6 +2834,7 @@ id foodCount
 id foodImage
 id foodName
 id foodSum
+id foodsCost
 id forever
 id fragment_container_view_tag
 id frost
@@ -2860,7 +2861,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageCategory
+id imageFood
 id immediateStop
 id included
 id info
@@ -2884,7 +2885,7 @@ id line1
 id line3
 id linear
 id listColl
-id listItem
+id listFoods
 id listMode
 id list_item
 id locale
@@ -3234,7 +3235,6 @@ layout abc_tooltip
 layout activity_main
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
-layout category_item
 layout category_item_list
 layout coll_item
 layout custom_dialog
@@ -3253,6 +3253,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout foods_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

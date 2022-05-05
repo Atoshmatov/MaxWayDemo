@@ -48,14 +48,14 @@
                 android:id="@+id/adsSlide"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:layout_marginHorizontal="8dp"/>
+                android:layout_marginHorizontal="8dp" />
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/ads_tab"
                 android:layout_width="wrap_content"
                 android:layout_height="12dp"
-                android:layout_marginVertical="8dp"
                 android:layout_gravity="bottom|center"
+                android:layout_marginVertical="8dp"
                 android:background="@android:color/transparent"
                 app:tabBackground="@drawable/circle_tab_indicator"
                 app:tabGravity="center"
@@ -69,30 +69,34 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <com.google.android.material.appbar.CollapsingToolbarLayout
-                    android:id="@+id/listColl"
+                <com.google.android.material.appbar.AppBarLayout
                     android:layout_width="match_parent"
-                    android:layout_height="40dp">
+                    android:layout_height="match_parent">
 
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/coll_list"
+                    <com.google.android.material.appbar.CollapsingToolbarLayout
+                        android:id="@+id/listColl"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal"
-                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                        tools:listitem="@layout/coll_item" />
-                </com.google.android.material.appbar.CollapsingToolbarLayout>
+                        android:layout_height="40dp">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/coll_list"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                            tools:listitem="@layout/coll_item" />
+                    </com.google.android.material.appbar.CollapsingToolbarLayout>
+                </com.google.android.material.appbar.AppBarLayout>
+
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/listItem"
+                    android:id="@+id/listFoods"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="54dp"
                     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                     app:spanCount="2"
-                    tools:ignore="SpeakableTextPresentCheck"
-                    tools:itemCount="20"
-                    tools:listitem="@layout/category_item" />
+                    tools:listitem="@layout/foods_item" />
 
 
             </androidx.coordinatorlayout.widget.CoordinatorLayout>

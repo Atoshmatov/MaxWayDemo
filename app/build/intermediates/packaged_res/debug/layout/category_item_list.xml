@@ -20,6 +20,6 @@
         android:layout_height="match_parent"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="2"
-        tools:listitem="@layout/category_item" />
+        tools:listitem="@layout/foods_item" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
