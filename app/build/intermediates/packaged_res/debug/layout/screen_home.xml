@@ -68,26 +68,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+                <!--
+                                <com.google.android.material.appbar.AppBarLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
 
-                <com.google.android.material.appbar.AppBarLayout
+
+                                </com.google.android.material.appbar.AppBarLayout>-->
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:id="@+id/listColl"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="40dp">
 
-                    <com.google.android.material.appbar.CollapsingToolbarLayout
-                        android:id="@+id/listColl"
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/coll_list"
                         android:layout_width="match_parent"
-                        android:layout_height="40dp">
-
-                        <androidx.recyclerview.widget.RecyclerView
-                            android:id="@+id/coll_list"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal"
-                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                            tools:listitem="@layout/coll_item" />
-                    </com.google.android.material.appbar.CollapsingToolbarLayout>
-                </com.google.android.material.appbar.AppBarLayout>
-
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        tools:listitem="@layout/coll_item" />
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/listFoods"
@@ -97,7 +97,6 @@
                     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
                     app:spanCount="2"
                     tools:listitem="@layout/foods_item" />
-
 
             </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

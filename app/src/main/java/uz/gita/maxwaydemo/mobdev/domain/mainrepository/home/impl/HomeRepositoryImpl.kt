@@ -13,7 +13,7 @@ import javax.inject.Inject
 
 class HomeRepositoryImpl
 @Inject constructor(
-    store: FirebaseFirestore
+    private val store: FirebaseFirestore
 ) : HomeRepository {
 
     private val ads = store.collection("ads")
